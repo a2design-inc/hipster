@@ -49,7 +49,3 @@ def call_api(method, dest):
 		return wrapper
 	return decorator
 
-@singleton_with_methods
-class Hipster():
-	def __init__(self, token):
-		self.AUTH_TOKEN = token
