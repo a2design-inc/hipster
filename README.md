@@ -25,10 +25,12 @@ Install::
     python setup.py install
 
 Instantiate::
+```python
+from hipster import Hipster
+hipster = Hipster(Your token)
+```
 
-    from hipster import Hipster
-    hipster = Hipster(Your token)
-
+API methods::
 
 
 
