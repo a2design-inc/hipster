@@ -9,7 +9,7 @@ try:
 except:
     from urllib.parse import urlencode
 
-API_URL    = 'https://api.hipchat.com/v1'
+API_URL = 'https://api.hipchat.com/v1'
 
 @error_handler
 def singleton_with_methods(class_):

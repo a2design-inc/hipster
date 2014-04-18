@@ -23,7 +23,7 @@ def check_arguments(fn_name, *args, **kwargs):
                         .format(x))
                 return False
             params.update(x)
-    (lambda: params.update(kwargs) if kwargs else {})()
+    (lambda: params.update(kwargs) if kwargs else None)()
     _illegal = [x for x in params.keys() if x not in api_func[fn_name]['params']]
     _missed  = [x for x in api_func[fn_name]['params'] \
                                             if x not in params.keys() \
