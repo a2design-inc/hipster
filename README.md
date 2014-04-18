@@ -30,7 +30,7 @@ from hipster import Hipster
 hipchat = Hipster(Your token)
 ```
 
-API methods::
+Call API methods::
 
 
 
