@@ -21,8 +21,10 @@ Usage
 
 Install::
 
-    git clone https://github.com/a2design-company/hipster
-    python setup.py install
+```bash
+git clone https://github.com/a2design-company/hipster
+python setup.py install
+````
 
 Instantiate::
 ```python
