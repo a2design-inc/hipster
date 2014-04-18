@@ -22,7 +22,7 @@ Usage
 Install::
 
     git clone https://github.com/a2design-company/hipster
-    python setup.py
+    python setup.py install
 
 Instantiate::
 
