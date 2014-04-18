@@ -6,7 +6,7 @@ Simple Python module for the HipChat API
 Description
 -----------
 
-Simple wrapper for the `HipChat API <https://www.hipchat.com/docs/api>`. 
+Simple Python library for the `HipChat API <https://www.hipchat.com/docs/api>`. 
 
 Dependencies
 ------------
