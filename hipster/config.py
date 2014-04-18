@@ -29,7 +29,6 @@ api_func = {
 		'API_url': 'rooms/delete'
 	},
 	
-
 	'get_messages': {
 		'params': [
 			'room_id',
