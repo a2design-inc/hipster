@@ -27,7 +27,7 @@ Install::
 Instantiate::
 ```python
 from hipster import Hipster
-hipster = Hipster(Your token)
+hipchat = Hipster(Your token)
 ```
 
 API methods::
