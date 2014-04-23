@@ -65,5 +65,5 @@ undelete_user()
 update_user_info()
 
 ```
-Also, you can change all the methods or create your own methods in config.py
+
 
