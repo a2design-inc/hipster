@@ -1,4 +1,3 @@
-
 api_func = {
 	'create_room': {
 		'params': [
@@ -17,7 +16,7 @@ api_func = {
 		'API_url': 'rooms/create'
 	},
 
-	'delete_rooms': {
+	'delete_room': {
 		'params': [
 			'room_id',
 			'format'
