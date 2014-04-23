@@ -34,6 +34,36 @@ hipchat = Hipster(Your token)
 
 Call API methods::
 
+```python
+hipchat.create_room(name='My room', owner_user_id=1, topic='Hello, room!')
+```
+or
 
+```python
+hipchat.create_room({
+ 'name': 'My another room',
+ 'owner_user_id': 1,
+ 'topic': 'Hello, room!'
+})
+```
 
+All available API methods::
+
+```python
+create_room()
+delete_room()
+get_messages()
+get_rooms_list()
+send_messages()
+set_room_topic()
+get_room_details()
+create_user()
+delete_user()
+get_users_list()
+get_users_details()
+undelete_user()
+update_user_info()
+
+```
+Also, you can change all the methods or create your own methods in config.py
 
