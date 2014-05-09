@@ -46,7 +46,7 @@ hipchat.create_room({
  'topic': 'Hello, room!'
 })
 ```
-Attention:: If you use named arguments in methods `send_messages()` and `set_room_topic()` use the 'sender' argument instead 'from': `
+Attention:: In methods `send_messages()` and `set_room_topic()` use the 'sender' argument instead 'from': `
 
 ```python
 hipchat.send_messages(room_id='your room id', sender='your user id', message='Hello, room!')
@@ -55,14 +55,6 @@ or
 ```python
 hip.send_messages({
     'sender':'your user id', 
-    'message':'Hello world!', 
-    'room_id':'your room id'})
-```
-In last case you may use 'from' if you need.
-
-```python
-hip.send_messages({
-    'from':'your user id', 
     'message':'Hello world!', 
     'room_id':'your room id'})
 ```
