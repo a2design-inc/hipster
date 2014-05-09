@@ -53,12 +53,18 @@ hipchat.send_messages(room_id='your room id', sender='your user id', message='He
 ```
 or
 ```python
-hip.send_messages({'sender':'your user id', 'message':'Hello world!', 'room_id':'your room id'})
+hip.send_messages({
+    'sender':'your user id', 
+    'message':'Hello world!', 
+    'room_id':'your room id'})
 ```
 In last case you may use 'from' if you need.
 
 ```python
-hip.send_messages({'from':'your user id', 'message':'Hello world!', 'room_id':'your room id'})
+hip.send_messages({
+    'from':'your user id', 
+    'message':'Hello world!', 
+    'room_id':'your room id'})
 ```
 
 All available API methods::
