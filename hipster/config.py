@@ -56,7 +56,7 @@ api_func = {
 		'params': [
 			'room_id', 
 			'message',
-			'message_from', 
+			'from', 
 			'message_format', 
 			'notify', 
 			'color', 
@@ -64,7 +64,7 @@ api_func = {
 		'required': [
 			'room_id', 
 			'message',
-			'message_from', 
+			'from', 
 		],
 		 'method': 'POST',
 		 'API_url': 'rooms/message'
