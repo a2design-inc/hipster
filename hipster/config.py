@@ -86,7 +86,7 @@ api_func = {
 		'API_url': 'rooms/topic'
 	},
 
-	'get_room_details ': {
+	'get_room_details': {
 		'params': [
 			'room_id',
 			'format'
