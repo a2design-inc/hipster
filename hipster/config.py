@@ -70,7 +70,7 @@ api_func = {
 		 'API_url': 'rooms/message'
 	},
 
-	'set_room_topic ': {
+	'set_room_topic': {
 		'params': [
 			'room_id',
 			'topic',
